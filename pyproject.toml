@@ -1,0 +1,19 @@
+[project]
+name = "survival-of-the-fittest"
+version = "0.1.0"
+description = "Genetic algorithm"
+readme = "README.md"
+authors = [
+    { name = "ViB", email = "hi@heyvib.in" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+]
+
+[project.scripts]
+survival-of-the-fittest = "survival_of_the_fittest:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
